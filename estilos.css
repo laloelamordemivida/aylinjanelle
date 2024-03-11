@@ -1,0 +1,98 @@
+ESTILO PLANTILLA
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: fantasy;
+    background-color: darkviolet;
+    padding: 10px;
+}
+
+.encabezado{
+    padding: 30px;
+    text-align: center;
+    background-color:violet;
+    
+}
+
+.encabezado h1{
+    font-size: 48pt;
+    color:pink;
+    font-family: serif;
+    text-shadow:pink -2px 5px;
+    
+}
+
+.menu{
+    background-color: hotpink;
+    overflow: hidden;
+   
+}
+
+.menu a{
+    float: left;
+    display: block;
+    color: papayawhip;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color:lightpink;
+    background-color: papayawhip;
+}.izq{
+    margin-top:20px;
+    float:left;
+    width:36.5%;
+    background-color: violet; 
+    padding: 10px;
+    text-align: justify;
+    
+}
+.der{
+    margin-top:20px;
+    float:left;
+    width:60%;
+    background-color:blueviolet;
+    padding: 10px;
+    text-align: justify;
+}
+.cuerpo{
+      margin-top:20px;
+    float:left;
+    width:auto;
+    background-color:violet;
+    padding: 10px;
+    text-align: justify;
+   
+}
+.pie{
+    padding:37px;
+    margin: 40 px;
+    width:95%; 
+    float:left;
+     font-family: sans-serif;
+    background-color:hotpink;
+    text-align: justify;
+}
+@media screen and (max-width: 1000px){
+    .pie,.izq,.der{
+        width:100%;
+        padding:0;
+    }
+}
+@media screen and (max-width: 800px){
+    .menu a {
+        float:none;
+        width:100%;
+    }
+
+        
+        
+        
+        
+        
+        
+    }
+}
